@@ -1,0 +1,177 @@
+@CHARSET "UTF-8";
+body{
+	margin:0px;
+	border:0px;
+	padding:0px;
+	background-color:white;
+	overflow:hidden;
+	text-align:center;
+	overflow-x:hidden;
+	overflow-y:scroll;
+}
+  	
+#container{
+	width:1024px;
+	height:780px;
+	border:1px solid black;
+	margin:auto;
+}
+
+#head{
+	width:1024px;
+	height:150px;	 
+}
+
+
+#top{
+	width:1022px;
+	height:30px;
+	font-size:16px;
+	font-weight:bold;
+}
+
+#top-left{
+	float:left;	
+	margin-left:10px;
+}
+
+#top-right{
+	float:right;
+	margin-right:20px;
+}
+
+#head{
+  	width:1024px;
+  	height:100px;
+}
+
+#head-left{
+	width:250px;
+	height:100px; 
+	margin-top:10px;
+	margin-left:-200px;
+	float:left;
+}
+
+#head-left img{
+	width:100%;
+	height:100%;
+	
+}
+
+#head-right{
+	width: 500px;
+	height: 90px;
+	margin-right:4px;
+	float: right;
+}
+
+#search {
+	width: 500px;
+	height: 44px;
+	font-size: 30px;
+	border: 2px solid red;
+}
+
+#searchtext {
+	width: 400px;
+	height: 44px;
+	color:#C0C0C0;
+	font-size:25px;
+	float: left;
+}
+
+#button {
+	width: 100px;
+	height: 44px;
+	float:right;
+	background-color: red;
+}
+
+#type {
+	position: relative;
+	width: 500px;
+	height: 40px;
+	float: left;
+	font-size: 15px;
+}
+
+.typeitem {
+	position: relative;
+	float: left;
+	heigth: 20px;
+	line-heigth: 20px;
+	margin-right: 20px;
+}
+
+
+#line{
+	width:1024px;
+	height:30px;
+	margin-top:10px;
+	background-color:red;
+	font-size:20px;
+	font-weight:bold;
+}
+
+#title-tip{
+	margin-left:-780px;
+}
+
+.li-style{
+	line-heigth:20px;
+	float:left;
+}
+
+a{
+	text-decoration:none;
+}
+
+ul li{
+	list-style:none;
+}
+
+
+#detail{
+	width:1010px;
+	height:auto;
+	border:1px solid black;
+	margin-bottom:5px;
+	margin-left:5px;
+	margin-right:5px;
+	margin-top:1px;
+}
+  	
+#detail-left{
+	width:200px;
+	height:500px;
+	font-size:30px;
+	font-weight:bold;
+	color:red;
+	padding-right:0px;
+	padding-top:50px;
+	float:left;
+}
+
+#detail-right{
+	width:600px;
+	height:500px;
+	font-size:30px;
+	margin-left:2px;
+	float:left;
+}
+
+#detail-right input{
+	margin-bottom:10px;
+}
+
+.detail-right-input{
+	width:200px;
+	height:35px;
+	border:1px solid red;
+	
+}
+
+a{
+	text-decoration: none;
+}
